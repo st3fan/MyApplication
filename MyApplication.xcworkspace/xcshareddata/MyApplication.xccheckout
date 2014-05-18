@@ -5,38 +5,38 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9A98D915-3A6F-49DC-AEAC-1765864948AD</string>
+	<string>0DA78AC4-8F4B-4A03-8647-E41BB33A47C3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MyApplication</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>28AFBE6A-3884-46A2-9FAE-BBCAD5F1D3D8</key>
-		<string>ssh://github.com/st3fan/MyLibrary.git</string>
-		<key>D633C54A-C3EC-48AB-91F4-6834E1003679</key>
+		<key>8790D3BC-FF79-4895-94D5-722472311F45</key>
 		<string>ssh://github.com/st3fan/MyApplication.git</string>
+		<key>BF9952B4-2C4E-40EA-805B-5BF3ED0C3CAF</key>
+		<string>ssh://github.com/st3fan/MyLibrary.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MyApplication.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>28AFBE6A-3884-46A2-9FAE-BBCAD5F1D3D8</key>
-		<string>../../MyLibrary</string>
-		<key>D633C54A-C3EC-48AB-91F4-6834E1003679</key>
+		<key>8790D3BC-FF79-4895-94D5-722472311F45</key>
 		<string>..</string>
+		<key>BF9952B4-2C4E-40EA-805B-5BF3ED0C3CAF</key>
+		<string>../../MyLibrary</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/st3fan/MyApplication.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D633C54A-C3EC-48AB-91F4-6834E1003679</string>
+	<string>8790D3BC-FF79-4895-94D5-722472311F45</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D633C54A-C3EC-48AB-91F4-6834E1003679</string>
+			<string>8790D3BC-FF79-4895-94D5-722472311F45</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MyApplication</string>
 		</dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>28AFBE6A-3884-46A2-9FAE-BBCAD5F1D3D8</string>
+			<string>BF9952B4-2C4E-40EA-805B-5BF3ED0C3CAF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MyLibrary</string>
 		</dict>

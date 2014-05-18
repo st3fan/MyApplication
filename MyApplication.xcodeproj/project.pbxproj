@@ -21,6 +21,7 @@
 		F89390B5192924F60061FB2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8939097192924F50061FB2E /* UIKit.framework */; };
 		F89390BD192924F60061FB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F89390BB192924F60061FB2E /* InfoPlist.strings */; };
 		F89390BF192924F60061FB2E /* MyApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F89390BE192924F60061FB2E /* MyApplicationTests.m */; };
+		F893911319292B830061FB2E /* libMyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F893911019292B680061FB2E /* libMyLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = F893908F192924F50061FB2E;
 			remoteInfo = MyApplication;
+		};
+		F893910F19292B680061FB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F893910A19292B680061FB2E /* MyLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F89390D1192925D50061FB2E;
+			remoteInfo = MyLibrary;
+		};
+		F893911119292B680061FB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F893910A19292B680061FB2E /* MyLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F89390E1192925D50061FB2E;
+			remoteInfo = MyLibraryTests;
+		};
+		F893911419292B870061FB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F893910A19292B680061FB2E /* MyLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F89390D0192925D50061FB2E;
+			remoteInfo = MyLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +75,7 @@
 		F89390BA192924F60061FB2E /* MyApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		F89390BC192924F60061FB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F89390BE192924F60061FB2E /* MyApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyApplicationTests.m; sourceTree = "<group>"; };
+		F893910A19292B680061FB2E /* MyLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyLibrary.xcodeproj; path = ../MyLibrary/MyLibrary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F893911319292B830061FB2E /* libMyLibrary.a in Frameworks */,
 				F8939096192924F50061FB2E /* CoreGraphics.framework in Frameworks */,
 				F8939098192924F50061FB2E /* UIKit.framework in Frameworks */,
 				F8939094192924F50061FB2E /* Foundation.framework in Frameworks */,
@@ -82,6 +106,7 @@
 		F8939087192924F50061FB2E = {
 			isa = PBXGroup;
 			children = (
+				F893910A19292B680061FB2E /* MyLibrary.xcodeproj */,
 				F8939099192924F50061FB2E /* MyApplication */,
 				F89390B8192924F60061FB2E /* MyApplicationTests */,
 				F8939092192924F50061FB2E /* Frameworks */,
@@ -152,6 +177,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F893910B19292B680061FB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F893911019292B680061FB2E /* libMyLibrary.a */,
+				F893911219292B680061FB2E /* MyLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +200,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F893911519292B870061FB2E /* PBXTargetDependency */,
 			);
 			name = MyApplication;
 			productName = MyApplication;
@@ -215,6 +250,12 @@
 			mainGroup = F8939087192924F50061FB2E;
 			productRefGroup = F8939091192924F50061FB2E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F893910B19292B680061FB2E /* Products */;
+					ProjectRef = F893910A19292B680061FB2E /* MyLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F893908F192924F50061FB2E /* MyApplication */,
@@ -222,6 +263,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F893911019292B680061FB2E /* libMyLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMyLibrary.a;
+			remoteRef = F893910F19292B680061FB2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F893911219292B680061FB2E /* MyLibraryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MyLibraryTests.xctest;
+			remoteRef = F893911119292B680061FB2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F893908E192924F50061FB2E /* Resources */ = {
@@ -270,6 +328,11 @@
 			isa = PBXTargetDependency;
 			target = F893908F192924F50061FB2E /* MyApplication */;
 			targetProxy = F89390B6192924F60061FB2E /* PBXContainerItemProxy */;
+		};
+		F893911519292B870061FB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyLibrary;
+			targetProxy = F893911419292B870061FB2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,6 +519,7 @@
 				F89390C4192924F60061FB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F89390C5192924F60061FB2E /* Build configuration list for PBXNativeTarget "MyApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +528,7 @@
 				F89390C7192924F60061FB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
