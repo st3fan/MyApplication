@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.messageLabel.text = [MyLibrary greeting];
+	self.messageLabel.text = [MyLibrary greetingForName: @"Stefan"];
 }
 
 - (void)didReceiveMemoryWarning
